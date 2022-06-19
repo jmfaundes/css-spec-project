@@ -1,18 +1,22 @@
+html {
+    font-family: system-ui;
+}
+
 .header-a {
     display:flex;
-    font-family: system-ui;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: space-between;
 }
 
 .header-a-box {
-    outline:solid;
+    border: solid;
+    padding: 5px 30px 5px;
+    margin: 10px;
 }
 
 .header-b {
     border-top: solid;
     border-bottom: solid;
-    font-family: system-ui;
 }
 
 .header-b-list {
@@ -22,64 +26,71 @@
     list-style-type: none;
     border-top: solid;
     border-bottom: solid;
-    font-family: system-ui;
     font-size: 30px;
+    margin: 10px 0px 10px;
+}
+
+a {
+    text-decoration: none; /*Elimino el subrayado*/
 }
 
 .header-c {
     border:solid;
-    font-family: system-ui;
+    font-weight: 450;
+    font-size: 55px;
+    margin: 10px 0px 10px;
 }
 
 .conteiner {
     display: flex;
     justify-content: center;
-    font-family: system-ui;
 }
 
 .subconteiner {
-    width: 700px;
+    width: 950px;
+    margin-top: 0px;
 }
 
 .social-media {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0px 50px 0px;
 }
 
-.fa {
-    padding: 20px;
-    text-align: center;
-    margin: 5px 2px;
-    font-size: 30px;
-    width: 50px;
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    /* width: 200px; */
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+ion-icon {
+    font-size: 20px;
+    color: black;
+    outline: solid;
+    margin: 5px;
+
 }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa:hover {
-    opacity: 0.9;
+button {
+    padding: 4px 10px 4px;
+    margin: 3px;
 }
 
 .image {
     /* background-color: aqua; */
     outline: solid;
-    width: 700px;
-    height: 200px;
+    width: 950px;
+    height: 250px;
 }
 
-.text {
+.t {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.text-2 {
     text-align: center;
-    font-size: large;
-    font-family: system-ui;
 }
 
 .further-reading {
@@ -88,12 +99,29 @@
     outline: solid;
 }
 
+.further-reading-column {
+
+}
+
+.further-reading-title {
+    font-size: 30px;
+}
+
+.further-reading-list {
+    list-style-type: '-';
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    font-family: system-ui;
 }
 
 .footer-img {

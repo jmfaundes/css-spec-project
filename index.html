@@ -3,10 +3,13 @@
     <head>
         <title>Wireframe</title>
         <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+
     </head>
 
     <body>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
         <header>
             <div class="header-a">
                 <a class="header-a-box" href="">App Academy</a>
@@ -24,13 +27,18 @@
         <main>
             <div class="conteiner">
                 <div class="subconteiner">
-                    <h1 class="header-c">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque dolor ad quidem laboriosam voluptates, suscipit aliquam molestias eveniet porro ab culpa nemo nobis libero at blanditiis ipsum illo nihil excepturi!</h1>
+                    <h1 class="header-c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h1>
 
                     <div class="social-media">
                         <p>By Author</p>
-                        <div>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
+                        <div class="social-media-icons">
+                            <a href="#">
+                                <ion-icon name="logo-facebook" aria-hidden="true" title="Visit our Facebook webpage"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-twitter" aria-hidden="true" title="Visit our Twitter webpage"></ion-icon>
+                            </a>
+                            <button type="share">share</button>
                         </div>
                     </div>
 
@@ -38,15 +46,15 @@
                         <img class="image" src="" alt="">
                     </div>
 
-                    <p>The Lore:</p>
-                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quo animi nesciunt! Similique, iure aliquid nihil nobis molestiae debitis nulla fugiat cupiditate enim alias voluptates repellendus ad tenetur id excepturi?</p>
-                    <p>The Ipsum:</p>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus cumque placeat expedita dolore est quibusdam. Voluptates aperiam, eos ad rem id labore, ex quod vel officiis libero odit eveniet.</p>
+                    <p class="t">The Lore:</p>
+                    <p class="t text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae harum laboriosam quas amet inventore beatae nobis vero ducimus et odio, accusantium officia eos error, quos distinctio adipisci! Quibusdam, est laboriosam.</p>
+                    <p class="t">The Ipsum:</p>
+                    <p class="t text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia delectus cumque placeat expedita dolore est quibusdam. Voluptates aperiam, eos ad rem id labore, ex quod vel officiis libero odit eveniet.</p>
 
                     <div class="further-reading">
-                        <div>
-                            <h2>More Info iterative</h2>
-                            <ul>
+                        <div class="further-reading-column">
+                            <h2 class="further-reading-title">More Info<br>iterative</h2>
+                            <ul class="further-reading-list">
                                 <li><a href="">The art of the loop</a></li>
                                 <li><a href="">While, ifs and everything in between</a></li>
                                 <li><a href="">A loop within a loop</a></li>
@@ -54,9 +62,9 @@
                                 <li><a href="">Arrays back in the day</a></li>
                             </ul>
                         </div>
-                        <div>
-                            <h2>recursive</h2>
-                            <ul>
+                        <div class="further-reading-column">
+                            <h2 class="further-reading-title">recursive</h2>
+                            <ul class="further-reading-list">
                                 <li><a href="">To understand recursion</a></li>
                                 <li><a href="">One must understand recursion</a></li>
                                 <li><a href="">All kind of sorts, sorts of all kinds</a></li>
